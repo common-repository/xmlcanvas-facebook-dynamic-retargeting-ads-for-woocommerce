@@ -1,0 +1,130 @@
+
+.pluginTopNadpis{color:orange; margin-bottom:0px;}
+
+#adminmenu .current .toplevel_page_xml_canvas_V01 .wp-menu-image img{
+    background-color: white;
+    margin: 7px;
+    padding: 2px;
+    border-radius: 2px; 
+    opacity: 1;
+}
+
+.userInfo_xmlc, .userInfo_xmlc_top, .userInfo_xmlc_systemUser{display: none}
+.userInfo_active{display: block}
+
+.userInfo_xmlc_top{background-color: whitesmoke; padding: 1px 15px 15px 15px; overflow: auto}
+.ul_xmlc_top{border-bottom: 1px solid black; margin-bottom: 0px; padding-bottom: 0px;}
+
+#post-body .chbtn_active{background-color:orange}
+
+#post-body .startStopFeed, #post-body .createNewFeed{
+    margin: 15px; background-color:#0085ba; color:white;
+}
+
+#post-body .createNewFeed{
+    font-size: 22px; line-height: 33px; height: 40px;
+}
+
+#post-body .startStopFeed{
+    font-size: 34px; line-height: 38px; height: 48px;
+    box-shadow: 0px 0px 1px #a0a0a0;;
+}
+#post-body .startStopFeed:hover{
+    box-shadow: 0px 0px 0px transparent;
+}
+
+
+#post-body .imgStartStopFeed{width:200px; float:left; border:3px solid #d7d7d7;}
+
+#post-body .tableStartStopFeed{border-spacing: 25px 5px; background-color: #fcfcfc; padding: 10px 0px; border-radius: 2px; 
+                               border: 1px solid #d7d7d7; margin-top: 20px}
+.wtbtdStartStopFeed{min-width: 400px; max-width: 400px}
+.imgSystemUser{height:135px; margin:5px; border: 2px solid #d7d7d7; cursor:pointer }
+.imgSystemUserSquare{height: 165px;}
+.stepBox{padding: 1px 10px 10px 15px; margin: 5px 0px; background-color:#fcfcfc; border-radius: 2px; border: 1px solid #d7d7d7;}
+
+
+.ajaxInfoNewOrder{margin: 8px 4px 4px 4px;}
+.ajaxInfoNewOrderStep3{margin: 4px 4px 8px 4px;}
+.boldInfo{font-weight: bold}
+.trailer{font-size:36px; padding:15px; color:orange; position:absolute; right:20px; top:60px; 
+    -ms-transform: rotate(23deg); /* IE 9 */
+    -webkit-transform: rotate(23deg); /* Chrome, Safari, Opera */
+    transform: rotate(23deg);
+}
+.trailerMini{
+    font-size: 26px;
+    padding: 18px;
+    color: white;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+    display: block;
+}
+.trailerMiniOrange{
+    color: black;
+}
+.trailerMiniBox{
+    background-color: #3ac8cc;
+    position: absolute;
+    padding: 0px 130px 30px;
+    right: -141px;
+    bottom: -35px;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.trailerMiniBoxOrange{
+    background-color: orange;   
+}
+
+.editMyFeedClosest{
+    display: inline-block; position:relative; overflow:hidden; min-width: 641px;
+}
+
+.editMyFeedClosest table{
+    width: 100%;
+}
+
+.ajaxInfoCoverEditMyFeed{
+    position:absolute; right:2px; left:2px; top:2px; bottom:2px; z-index:1;
+    display: none; background-color: rgba(245, 245, 245, 0.95); margin-top: 20px;
+    font-size: 16px; color:black; text-align: center;
+    padding-top: 15px;
+}
+
+#post-body .ajaxInfoCoverEditMyFeed h2{
+    font-size: 30px;
+    color: black;
+    padding: 5px 5px 25px 5px;
+}
+#post-body .ajaxInfoCoverEditMyFeed p{
+    font-size: 12px;
+}
+.closeInfo{
+    position: absolute;
+    right: 10px;
+    top:5px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.paidUntill{font-size: 14px; font-weight: bold; line-height: 40px;}
+.paidUntill .button, .stepBoxDefault .button{
+    margin: 8px 10px; background-color:#0085ba; color:white;    
+    font-size: 16px; line-height: 18px; height: 22px;
+    font-weight: bold;
+}
+.paidUntill .button:hover, .stepBoxDefault .button:hover{
+    background-color:#3ac8cc;
+    color: white;
+}
+
+.stepBoxDefault{
+    padding: 10px 10px 10px 15px;
+    line-height: 35px;
+}
+.stepBoxDefault .button{
+    margin: 5px 20px;
+}
